@@ -1,0 +1,16 @@
+@import '../../../styles/global.scss';
+@import '../../../styles/global.scss';
+
+.navbar {
+  color: beige;
+  font-family: $font;
+
+  .icon {
+  }
+  .links {
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
