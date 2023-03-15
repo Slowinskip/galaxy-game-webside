@@ -1,4 +1,48 @@
 @import '../../../styles/global.scss';
 
-.col {
+.row {
+  min-height: 100vh;
+  position: relative;
+
+  .col {
+    display: block;
+    margin: 100px 0;
+    align-items: center;
+    text-align: end;
+    color: #ee5a24;
+    font-family: $font;
+    letter-spacing: 5px;
+
+    > * {
+      margin: 30px 0;
+      font-size: $base-size * 6;
+      font-family: $font1;
+    }
+    .button {
+      font-size: $base-size * 3;
+      padding: 12px 24px;
+      border-color: #ee5a24;
+      border-width: 3px;
+      background-color: transparent;
+      color: #ee5a24;
+
+      &:hover {
+        background-color: #ee5a24;
+        color: white;
+      }
+    }
+  }
+
+  .homeFooter {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: #ee5a24;
+    font-family: $font;
+    margin-bottom: 36px;
+    h3 {
+      backdrop-filter: blur(10px);
+      width: auto;
+    }
+  }
 }

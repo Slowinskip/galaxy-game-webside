@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <Container>
         <Row>
-          <Col className={styles.icon}>
+          <Col lg={2} className={styles.icon}>
             <FaSpaceShuttle />
           </Col>
           {window.innerWidth < 500 ? (

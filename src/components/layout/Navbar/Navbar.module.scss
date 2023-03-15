@@ -1,5 +1,4 @@
 @import '../../../styles/global.scss';
-@import '../../../styles/global.scss';
 
 .navbar {
   color: beige;
@@ -9,6 +8,7 @@
   .icon {
     display: flex;
     justify-content: start;
+    align-items: center;
     font-size: $base-size * 4;
 
     @media (max-width: 500px) {
