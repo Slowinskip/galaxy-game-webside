@@ -26,10 +26,10 @@ const Navbar = () => {
                   className={'text-center ' + styles.dropDownMenu}
                   variant="dark"
                 >
-                  <Dropdown.Item className={styles.dropItem} href="#">
+                  <Dropdown.Item className={styles.dropItem} href="/">
                     Home
                   </Dropdown.Item>
-                  <Dropdown.Item className={styles.dropItem} href="#">
+                  <Dropdown.Item className={styles.dropItem} href="/about">
                     About
                   </Dropdown.Item>
                   <Dropdown.Item className={styles.dropItem} href="#">
@@ -43,9 +43,9 @@ const Navbar = () => {
             </Col>
           ) : (
             <Col className={styles.links}>
-              <a href="">Home</a>
-              <a href="">About us</a>
-              <a href="">Login</a>
+              <a href="/">Home</a>
+              <a href="/about">About us</a>
+              <a href="/login">Login</a>
               <a href="">Register</a>
             </Col>
           )}
