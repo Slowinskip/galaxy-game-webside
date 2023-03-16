@@ -9,11 +9,11 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <Container>
         <Row>
-          <Col lg={2} className={styles.icon}>
+          <Col className={'col-6 ' + styles.icon}>
             <FaSpaceShuttle />
           </Col>
           {window.innerWidth < 500 ? (
-            <Col className="d-flex justify-content-end align-items-center">
+            <Col className="d-flex justify-content-end align-items-center col-6">
               <Dropdown className="">
                 <Dropdown.Toggle
                   className={styles.dropDownMenu}

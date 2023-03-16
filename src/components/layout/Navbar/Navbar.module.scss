@@ -64,10 +64,18 @@
     }
   }
   .dropDownMenu {
+    justify-content: end;
+    align-items: center;
+
     border-color: white;
     border-radius: 25px;
     color: white;
     background-color: transparent;
+
+    &:hover {
+      color: #ee5a24;
+      border-color: #ee5a24;
+    }
 
     .dropItem:hover {
       background: #ee5a24;
